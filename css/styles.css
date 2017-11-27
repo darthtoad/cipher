@@ -1,0 +1,17 @@
+body {
+  background-color: #867530
+}
+
+img {
+  width: 300px;
+  border: 5px solid green;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: darkred;
+  text-align: center;
+}
