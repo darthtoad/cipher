@@ -34,9 +34,7 @@ grammar4(sentence);
 
 function grammar5(sentence) {
   finalSentenceOriginal = sentence.charAt(parseInt(sentence.length / 2)) + sentence + sentence.charAt(sentence.length - 1).toUpperCase() + sentence.charAt(0).toUpperCase();
-  finalSentenceSplit = finalSentenceOriginal.split("");
-  finalSentenceReverse = finalSentenceSplit.reverse();
-  finalSentence = finalSentenceReverse.join("");
+  finalSentence = finalSentenceOriginal.split("").reverse().join("");
   return finalSentence;
 };
 
